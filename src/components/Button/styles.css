@@ -1,0 +1,20 @@
+.btn-container {
+    padding: 15px 30px;
+    width: 100%;
+    background-color: burlywood;
+    cursor: pointer;
+    text-align: center;
+    border: 5px;
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.btn-container:hover {
+  opacity: 70%;
+}
+
+.btn-container:disabled {
+  background: darkgrey;
+  cursor: not-allowed;
+}
